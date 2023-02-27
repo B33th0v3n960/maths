@@ -1,6 +1,6 @@
-import { filter, getCombinations } from './triangle.js'
-import isTriangle from './verify.js'
-import { append } from './file.js'
+import { filter, getCombinations } from './triangle/triangle.js'
+import isTriangle from './triangle/verify.js'
+import { append } from './triangle/file.js'
 
 const major = ['A', 'B', 'C', 'D', 'E', 'F']
 const minor = ['a', 'b', 'c', 'd', 'e', 'f', 'z']
